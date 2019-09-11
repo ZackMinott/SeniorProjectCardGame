@@ -333,15 +333,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Phantom
   cardDescription: 
+<<<<<<< HEAD
   cardEffect: 
+=======
+  cardEffect: {fileID: 0}
+>>>>>>> master
   cardArtwork: {fileID: 0}
   cardElement: {fileID: 0}
   inShop: 0
   cardCost: 0
   cardCurrency: 1
   cardAttack: 0
+<<<<<<< HEAD
   spotOnGrid: {x: 0, y: 0}
   effect: {fileID: 0}
+=======
+  cardType: 5
+  spotOnGrid: {x: 0, y: 0}
+>>>>>>> master
 --- !u!114 &-2311649112572328422
 MonoBehaviour:
   m_ObjectHideFlags: 0

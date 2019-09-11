@@ -217,7 +217,11 @@ GameObject:
   - component: {fileID: 6130187465402888862}
   - component: {fileID: 6130187465402888863}
   - component: {fileID: 6130187465402888860}
+<<<<<<< HEAD
   - component: {fileID: 8908624133493255576}
+=======
+  - component: {fileID: 2349519125053485446}
+>>>>>>> master
   m_Layer: 0
   m_Name: Minion 2
   m_TagString: Untagged
@@ -233,7 +237,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6130187465402888857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -1.9499998, y: 3.96, z: 0}
+=======
+  m_LocalPosition: {x: 2.0500002, y: 3.96, z: 0}
+>>>>>>> master
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6863974079102277820}
@@ -318,7 +326,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3666667, y: 1.7666667}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!114 &8908624133493255576
+=======
+--- !u!114 &2349519125053485446
+>>>>>>> master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,7 +339,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6130187465402888857}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 407f65cd6d7638a4b9d6afadc1d328dc, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: b25d3e11518055a4c9ed616fce780621, type: 3}
+>>>>>>> master
   m_Name: 
   m_EditorClassIdentifier: 
   cardName: Minion 2
@@ -335,11 +351,18 @@ MonoBehaviour:
   cardEffect: 
   cardArtwork: {fileID: 0}
   cardElement: {fileID: 0}
+<<<<<<< HEAD
   rewardValue: 2
   healthValue: 9
   turnPlayer: {fileID: 0}
   manager: {fileID: 0}
   bossZones: {fileID: 0}
+=======
+  _rewardValue: 2
+  _healthValue: 9
+  manager: {fileID: 0}
+  effect: {fileID: 0}
+>>>>>>> master
 --- !u!1 &6232124759135343526
 GameObject:
   m_ObjectHideFlags: 0

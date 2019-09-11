@@ -2,19 +2,76 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Card")]
-public class Card : ScriptableObject
+public abstract class Card : ScriptableObject
 {
-    //public string cardName;
-    //public string cardDescription;
-    //public string cardEffect;
+    [SerializeField]
+    private string cardName;
+    public string CardName
+    {
+        get { return cardName; }
+    }
 
-    //public Sprite cardArtwork;
-    //public Sprite cardElement;
+    [SerializeField]
+    private string cardDescription;
+    public string CardDescription
+    {
+        get { return cardDescription; }
+    }
 
-    //public int cardCost;
-    //public int cardCurrency;
-    //public int cardAttack;
+    [SerializeField]
+    private CardEffect cardEffect;
+    public CardEffect CardEffect
+    {
+        get { return cardEffect; }
+    }
 
-    public CardProperties[] properties;
+    [SerializeField]
+    private string cardEffectDisplay;
+    public string CardEffectDisplay
+    {
+        get { return cardEffectDisplay; }
+    }
+
+    [SerializeField]
+    private Sprite cardArtwork;
+    public Sprite CardArtwork
+    {
+        get { return cardArtwork; }
+    }
+
+
+    [SerializeField]
+    private Sprite cardTypeArt;
+    public Sprite CardTypeArt
+    {
+        get { return cardTypeArt; }
+    }
+
+    [SerializeField]
+    private CardType.CardTypes cardType;
+    public CardType.CardTypes CardType
+    {
+        get { return cardType; }
+    }
+
+    [SerializeField]
+    private Sprite nameBoxArt;
+    public Sprite NameBoxArt
+    {
+        get { return nameBoxArt; }
+    }
+
+    [SerializeField]
+    private Sprite cardEffectBoxArt;
+    public Sprite CardEffectBoxArt
+    {
+        get { return cardEffectBoxArt; }
+    }
+
+    [SerializeField]
+    private Sprite borderArt;
+    public Sprite BorderArt
+    {
+        get { return borderArt; }
+    }
 }
