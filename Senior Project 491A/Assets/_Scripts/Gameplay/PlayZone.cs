@@ -83,7 +83,7 @@ public class PlayZone : MonoBehaviour
         
         CardPlayed?.Invoke(cardPlayed);
 
-        GameObject.Destroy(cardInZone.gameObject);
+        Destroy(cardInZone.gameObject);
         
         cardInPlayZone = false;
         cardInZone = null;

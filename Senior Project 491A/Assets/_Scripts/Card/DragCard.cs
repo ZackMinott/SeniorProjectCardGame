@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class DragCard : MonoBehaviour
 {
+    public Vector2 OriginalPosition;
+
+    public Vector3 OriginalScale;
     private Vector3 offset;
     private Vector3 screenPoint;
-
-    public Vector2 OriginalPosition;
+    BoxCollider2D playZoneCollider;
 
     public delegate void _ShopCardClicked(PlayerCardHolder cardClicked);
 
@@ -16,6 +18,7 @@ public class DragCard : MonoBehaviour
     private void Awake()
     {
         OriginalPosition = this.transform.position;
+        OriginalScale = transform.localScale;
     }
 
     public void OnMouseDown()
@@ -39,6 +42,26 @@ public class DragCard : MonoBehaviour
         {
             this.transform.position = OriginalPosition;
         }
+    }
+
+    //Zooms the card when the mouse cursor hovers over it
+    public void OnMouseEnter()
+    {
+        Debug.Log("enter");
+        //Toggle the Collider on and off when pressing the space bar
+        playZoneCollider.enabled = !playZoneCollider.enabled;
+        //Output to console whether the Collider is on or not
+        Debug.Log("Collider.enabled = " + playZoneCollider.enabled);
+        transform.localScale += new Vector3(1.5F, 1.5F, 0); //zooms in the object
+        gameObject.transform.position += new Vector3(0, 1, 0);
+    }
+
+    //Returns the card to it's original size when the mouse cursor leaves the card object
+    public void OnMouseExit()
+    {
+        Debug.Log("exit");
+        transform.localScale = OriginalScale;  //returns the object to its original state
+        gameObject.transform.position = OriginalPosition;
     }
 
     public void OnMouseDrag()
