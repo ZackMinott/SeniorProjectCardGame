@@ -11,6 +11,8 @@ Multiplayer card game being developed in Unity.
 
 Animations (All Scripts) : https://github.com/AlexisPinedo/SeniorProjectCardGame/tree/master/Senior%20Project%20491A/Assets/_Scripts/Animation
 
-AddressableAssets (Full Script): https://github.com/AlexisPinedo/SeniorProjectCardGame/blob/master/Senior%20Project%20491A/Assets/_Scripts/UI/ParticlePlay.cs
+AddressableAssets (Full Script):   
+- https://github.com/AlexisPinedo/SeniorProjectCardGame/blob/master/Senior%20Project%20491A/Assets/_Scripts/UI/ParticlePlay.cs
+- https://github.com/AlexisPinedo/SeniorProjectCardGame/blob/master/Senior%20Project%20491A/Assets/_Scripts/UI/SummonerHandler.cs
 
 Firebase (All Scripts in Database/Authentication Folders): https://github.com/AlexisPinedo/SeniorProjectCardGame/tree/master/Senior%20Project%20491A/Assets/_Scripts/Firebase
